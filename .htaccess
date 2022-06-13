@@ -1,0 +1,9 @@
+Options ALL -Indexes
+#Options -Miltiviews
+RewriteEngine on
+
+RewriteBase /coffekonecta
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.+)$ index.php/$1 [L]
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

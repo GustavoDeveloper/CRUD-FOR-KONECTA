@@ -1,0 +1,32 @@
+{
+    "name": "gustavo/coffekonecta",
+    "description": "Prueba tecnica Konecta",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "CoffeKonecta\\Template\\": "src/Template",
+            "CoffeKonecta\\Views\\Sales\\": "src/Views/Sales",
+            "CoffeKonecta\\Views\\Products\\": "src/Views/Products",
+            "CoffeKonecta\\Views\\Login\\": "src/Views/Login",
+            "CoffeKonecta\\Views\\": "src/Views/",
+            "CoffeKonecta\\Model\\Sales\\": "src/Model/Sales",
+            "CoffeKonecta\\Model\\Products\\": "src/Model/Products",
+            "CoffeKonecta\\Model\\Login\\": "src/Model/Login",
+            "CoffeKonecta\\Model\\": "src/Model/",
+            "CoffeKonecta\\Controller\\": "src/Controller/",
+            "CoffeKonecta\\Config\\": "src/Config/",
+            "CoffeKonecta\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Risueño",
+            "email": "gustavoriu@hotmail.com",
+            "role": "owner"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {}
+}
